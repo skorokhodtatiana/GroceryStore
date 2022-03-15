@@ -7,6 +7,7 @@ import {
 	Link,
 	BrowserRouter
 } from "react-router-dom";
+import Footer from './components/footer/Footer';
 
 function App() {
 	return (
@@ -27,6 +28,7 @@ function App() {
 						}
 					/>
 				</Routes>
+				<Footer></Footer>
 			</div>
 		</BrowserRouter>
 	);
