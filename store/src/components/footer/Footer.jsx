@@ -9,6 +9,9 @@ const Footer = () => {
 			<a href='https://www.instagram.com/natashina_pekarnya/'>
 			<FontAwesomeIcon icon={faInstagram} className="iconInstagram" />
 			</a>
+			<a href='https://www.instagram.com/natashina_pekarnya/'>
+			<FontAwesomeIcon icon={faFacebook} className="iconFacebook" />
+			</a>
 		</div>
 	)
 };
