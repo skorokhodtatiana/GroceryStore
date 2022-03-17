@@ -5,7 +5,7 @@ import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
 	return (
-		<div>
+		<div className='footer-wrapper'>
 			<a href='https://www.instagram.com/natashina_pekarnya/'>
 			<FontAwesomeIcon icon={faInstagram} className="iconInstagram" />
 			</a>
