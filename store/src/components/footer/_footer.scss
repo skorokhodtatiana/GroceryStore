@@ -1,4 +1,8 @@
 .footer-wrapper {
 	display: flex;
 	justify-content: center;
+
+	&__iconInstagram {
+		color: rgb(44, 138, 80);
+	}
 }
