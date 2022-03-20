@@ -1,8 +1,13 @@
-.footer-wrapper {
+.footer {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	align-items: flex-end;
+	height: 250px;
 
-	&__iconInstagram {
-		color: rgb(44, 138, 80);
+	&__icon {
+		margin-left: 5px;
+		font-size: 18px;
+		color: black;
 	}
 }
