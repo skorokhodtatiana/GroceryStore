@@ -15,7 +15,7 @@ const Header = () => {
 				<nav className="headerWrapper__nav">
 					<ul className="headerWrapper__list">
 						<li className="headerWrapper__list-item">
-							<Link to="/" className="link">
+							<Link to="/aboutMe" className="link">
 								Обо мне
 							</Link>
 						</li>
