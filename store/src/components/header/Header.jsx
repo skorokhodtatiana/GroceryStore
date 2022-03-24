@@ -1,11 +1,8 @@
 import './_header.scss';
 import {
 	BrowserRouter as Router,
-	Routes,
-	Route,
 	Link
-  } from "react-router-dom";
-import mainphoto from '../../assets/images/photo-main.jpg';
+} from "react-router-dom";
 
 const Header = () => {
 	return (
@@ -41,9 +38,6 @@ const Header = () => {
 						</li>
 					</ul>
 				</nav>
-			</div>
-			<div className="wrapper-img">
-				<img className="wrapper-img__img-main" src={ mainphoto } alt={ "mainphoto" }></img>
 			</div>
 		</>
 	)
