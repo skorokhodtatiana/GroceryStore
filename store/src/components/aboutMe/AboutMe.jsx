@@ -3,9 +3,16 @@ import master from '../../assets/images/master.jpg';
 
 const AboutMe = () => {
 	return (
-		<div>
-			<div className='wrapper-master-photo'>
-				<img className='wrapper-master-photo__img' src={master} alt={"master"}></img>
+		<div className='wrapper-aboutMe'>
+			<div className='wrapper-aboutMe__master-photo'>
+				<img className='wrapper-aboutMe__img' src={master} alt={"master"}></img>
+			</div>
+			<div>
+				<h2>Как все начиналось</h2>
+				<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. 
+					В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+					Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили
+					публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
 			</div>
 		</div>
 	)

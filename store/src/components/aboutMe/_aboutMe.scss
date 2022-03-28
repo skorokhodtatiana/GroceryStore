@@ -1,6 +1,10 @@
-.wrapper-master-photo {
-	width: 50%;
-	margin-left: 5%;
+.wrapper-aboutMe {
+	display: flex;
+	
+	&__master-photo {
+		width: 50%;
+		margin-left: 5%;
+	}
 
 	&__img{
 		max-width: 50%;
