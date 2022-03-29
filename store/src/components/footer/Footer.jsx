@@ -6,7 +6,7 @@ import { faInstagram, faFacebook, faVk} from "@fortawesome/free-brands-svg-icons
 const Footer = () => {
 	return (
 		<div className='footer'>
-			<div>
+			<div className='footer__content'>
 			<a href='https://www.instagram.com/natashina_pekarnya/'>
 				<FontAwesomeIcon icon={faInstagram} className={"footer__icon iconInstagram"}/>
 			</a>
@@ -17,7 +17,7 @@ const Footer = () => {
 			<FontAwesomeIcon icon={faVk} className={"footer__icon iconInstagram"}/>
 			</a>
 			</div>
-			<div>© 2022 Natalia Tatarginskaja</div>
+			<div className='footer__author'>© 2022 Natalia Tatarginskaja</div>
 		</div>
 	)
 };

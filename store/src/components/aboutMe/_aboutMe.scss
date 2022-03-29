@@ -1,12 +1,22 @@
 .wrapper-aboutMe {
 	display: flex;
+	justify-content: space-between;
+	padding-bottom: 115px;
 	
 	&__master-photo {
 		width: 50%;
-		margin-left: 5%;
 	}
 
 	&__img{
 		max-width: 50%;
+	}
+
+	&__content {
+		width: 50%;
+	}
+
+	&__text {
+		font-size: 16px;
+		line-height: 1.5;
 	}
 }
