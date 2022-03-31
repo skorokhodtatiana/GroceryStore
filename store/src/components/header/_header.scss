@@ -4,6 +4,8 @@
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
+	font-family: 'Lobster', cursive;
+	background-color:  rgb(227, 233, 226);;
 
 	&__title {
 		margin-left: 5%;
@@ -30,6 +32,7 @@
 .link {
 	text-decoration: none;
 	color: black;
+	font-size: 1.3rem;
 
 	&:hover{
 		text-decoration: underline;
