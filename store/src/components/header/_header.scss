@@ -9,6 +9,7 @@
 
 	&__title {
 		margin-left: 5%;
+		color: black;
 	}
 
 	&__nav {
@@ -33,6 +34,16 @@
 	text-decoration: none;
 	color: black;
 	font-size: 1.3rem;
+
+	&:hover{
+		text-decoration: underline;
+		color: rgb(44, 190, 81);
+	}
+}
+
+.link-title {
+	text-decoration: none;
+	color: black;
 
 	&:hover{
 		text-decoration: underline;

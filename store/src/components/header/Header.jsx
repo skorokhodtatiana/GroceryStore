@@ -5,7 +5,9 @@ const Header = () => {
 	return (
 		<>
 			<div className="headerWrapper">
-				<h1 className="headerWrapper__title">GroceryStoreBY</h1>
+				<h1 className="headerWrapper__title">
+				<Link to="/" className="link-title">GroceryStoreBY</Link>
+				</h1>
 				<nav className="headerWrapper__nav">
 					<ul className="headerWrapper__list">
 						<li className="headerWrapper__list-item">
