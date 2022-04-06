@@ -2,8 +2,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 144px;
+	height: 150px;
 	background-color: rgb(227, 233, 226);
+
+	&__gallery {
+		display: flex;
+		
+	}
 
 	&__picture-wrapper {
 		width: 100px;
@@ -14,7 +19,7 @@
 	}
 
 	&__content {
-		margin-top: 96px;
+		margin-top: 6px;
 	}
 
 	&__icon {
