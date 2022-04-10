@@ -16,7 +16,7 @@ const Header = () => {
 							</Link>
 						</li>
 						<li className="headerWrapper__list-item">
-							<Link to="/catalog" className="link">
+							<Link to="/catalogue" className="link">
 								Каталог
 							</Link>
 						</li>

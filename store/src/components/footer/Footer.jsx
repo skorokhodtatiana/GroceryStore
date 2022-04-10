@@ -27,7 +27,7 @@ const Footer = () => {
 					<img className='footer__picture' src={mushroom} alt={"mushroom"}></img>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<img className='footer__picture' src={radish} alt={"radish"}></img>
+					<img className={'footer__picture footer__picture-radish'} src={radish} alt={"radish"}></img>
 				</div>
 			</div>
 			<div className='footer__content'>

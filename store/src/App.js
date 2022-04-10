@@ -10,6 +10,8 @@ import {
 import Footer from './components/footer/Footer';
 import AboutMe from './components/aboutMe/AboutMe';
 import MainBlock from './components/main/Main';
+import CardItem from './components/catalouge/Catalouge';
+import { CardItem } from './assets/DataCards/CardItem';
 
 function App() {
 	return (
@@ -19,7 +21,7 @@ function App() {
 				<Routes>
 					<Route exact path="/" element={<MainBlock/>}></Route>
 					<Route exact path="aboutMe" element={<AboutMe/>}></Route>
-					<Route exact path="catalog"></Route>
+					<Route exact path="catalogue" element={<CardItem/>}></Route>
 					<Route exact path="payment"></Route>
 					<Route exact path="reviews"></Route>
 					<Route path="*"

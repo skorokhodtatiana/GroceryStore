@@ -14,10 +14,15 @@
 
 	&__picture-wrapper {
 		width: 100px;
+
 	}
 
 	&__picture {
 		max-width: 100%;
+
+		&:hover {
+			transform: scale(1.2);
+		}
 	}
 
 	&__content {
