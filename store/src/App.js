@@ -10,8 +10,8 @@ import {
 import Footer from './components/footer/Footer';
 import AboutMe from './components/aboutMe/AboutMe';
 import MainBlock from './components/main/Main';
-import CardItem from './components/catalouge/Catalouge';
-import { CardItem } from './assets/DataCards/CardItem';
+import CardItem from './components/catalogue/Catalogue';
+// import { DataCards } from './assets/DataCards/DataCards';
 
 function App() {
 	return (
