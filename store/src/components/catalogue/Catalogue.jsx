@@ -1,3 +1,5 @@
+import { DataCards } from '../../assets/DataCards';
+
 const CardItem = (props) => {
 	const {title, image, description, price} = props;
 	return(
@@ -14,4 +16,19 @@ const CardItem = (props) => {
 	)
 }
 
-export default CardItem;
+const ListItem = () => {
+	return(<>
+		{DataCards.map((card) => (<CardItem
+			key={card.id}
+			id={card.id}
+			title={card.title}
+			image={card.image}
+			description={card.description}
+			price={card.price}
+		>
+		</CardItem>))}
+		</>
+	)
+}
+
+export {CardItem, ListItem};
