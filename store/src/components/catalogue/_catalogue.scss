@@ -1,0 +1,25 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	width: 200px;
+	height: 370px;
+	border: 1px solid black;
+
+	&__title {
+		margin: auto;
+	}
+
+	&__wrapper-img {
+		margin-top: 10px;
+	}
+
+	&__img {
+		max-width: 100%;
+	}
+}
+
+.block-catalouge {
+	display: flex;
+	flex-direction: row;
+}

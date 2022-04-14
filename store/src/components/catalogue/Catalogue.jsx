@@ -4,10 +4,10 @@ const CardItem = (props) => {
 	const {title, image, description, price} = props;
 	return(
 		<div>
-			<div>
-				<h2>{title}</h2>
-				<div>
-					<img src={image} alt={"image"}></img>
+			<div className='card'>
+				<h2 className='card__title'>{title}</h2>
+				<div className='card__wrapper-img'>
+					<img className='card__img' src={image} alt={"image"}></img>
 				</div>
 				<div>{description}</div>
 				<div>{price}</div>
@@ -17,7 +17,7 @@ const CardItem = (props) => {
 }
 
 const ListItem = () => {
-	return(<>
+	return(<div className='block-catalouge'>
 		{DataCards.map((card) => (<CardItem
 			key={card.id}
 			id={card.id}
@@ -27,7 +27,7 @@ const ListItem = () => {
 			price={card.price}
 		>
 		</CardItem>))}
-		</>
+		</div>
 	)
 }
 
