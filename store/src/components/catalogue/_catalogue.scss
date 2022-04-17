@@ -7,11 +7,16 @@
 	border: 1px solid black;
 
 	&__title {
-		margin: auto;
+		margin: 0;
+		height: 60px;
+		width: 100%;
+		line-height: 60px;
+		background-color: beige;
+		text-align: center;
 	}
 
 	&__wrapper-img {
-		margin-top: 10px;
+		background-color: aliceblue;
 	}
 
 	&__img {
