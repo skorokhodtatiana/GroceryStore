@@ -22,6 +22,18 @@
 	&__img {
 		max-width: 100%;
 	}
+
+	&__description {
+		position:relative;
+		padding-bottom:26px;
+	}
+
+	&__price {
+
+		height: 26px;
+		background-color: beige;
+		text-align: center;
+	}
 }
 
 .block-catalouge {
