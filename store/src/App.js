@@ -16,7 +16,7 @@ import {CardItem, ListItem} from './components/catalogue/Catalogue';
 function App() {
 	return (
 		<BrowserRouter>
-			<div className="App">
+			<div className="app">
 				<Header></Header>
 				<Routes>
 					<Route exact path="/" element={<MainBlock/>}></Route>

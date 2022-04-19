@@ -3,3 +3,8 @@
 @import '../components/aboutMe/aboutMe';
 @import '../components/main/main';
 @import '../components/catalogue/catalogue';
+
+.app {
+	min-height: 97vh;
+	position: relative;
+}
