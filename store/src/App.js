@@ -11,6 +11,7 @@ import Footer from './components/footer/Footer';
 import AboutMe from './components/aboutMe/AboutMe';
 import MainBlock from './components/main/Main';
 import {CardItem, ListItem} from './components/catalogue/Catalogue';
+import Reviews from './components/reviews/Rewiews';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
 					<Route exact path="aboutMe" element={<AboutMe/>}></Route>
 					<Route exact path="catalogue" element={<ListItem/>}></Route>
 					<Route exact path="payment"></Route>
-					<Route exact path="reviews"></Route>
+					<Route exact path="reviews" element={<Reviews/>}></Route>
 					<Route path="*"
 						element={
 							<main style={{ padding: "1rem", textAlign: "center", fontSize: "3rem" }}>
