@@ -1,9 +1,9 @@
 const Reviews = () => {
 	return(
 		<div>
-			<div>
+			<div className="review">
 				<label className="review__leave">Оставте свой отзыв
-					<textarea className="review__leave"></textarea>
+					<textarea className="review__textarea"></textarea>
 				</label>
 			</div>
 		</div>
