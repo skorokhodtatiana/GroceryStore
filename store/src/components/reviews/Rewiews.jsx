@@ -1,10 +1,13 @@
+import { useState } from "react";
+
 const Reviews = () => {
+	const [review, setReview] = useState();
 	return(
 		<div>
 			<div className="review">
-				<label className="review__leave">Оставте свой отзыв
-					<textarea className="review__textarea"></textarea>
-				</label>
+				<label for="textarea" className="review__leave">Оставте свой отзыв</label>
+				<textarea value={review} type="text" placeholder="Напишите здесь все, чем хотите поделиться" id="textarea" className="review__textarea"></textarea>
+				<button className="review__button">Поделиться</button>
 			</div>
 		</div>
 	)
