@@ -1,6 +1,8 @@
 .review {
-	display: flex;
-	flex-direction: column;
+	&__new {
+		display: flex;
+		flex-direction: column;
+	}
 
 	&__leave {
 		margin-top: 10px;
@@ -10,7 +12,7 @@
 
 	&__textarea {
 		margin-top: 10px;
-		width: 400px;
+		width: 40%;
 		height: 100px;
 	}
 
@@ -19,7 +21,7 @@
 		padding: 10px 20px;
 		border-radius: 4px;
 		margin-top: 10px;
-		background-color: white;
+		background-color: rgb(228, 100, 100);
 
 		&:hover {
 			transform: scale(1.1);
