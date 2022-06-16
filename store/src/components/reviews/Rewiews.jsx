@@ -4,6 +4,9 @@ const Reviews = () => {
 	const [review, setReview] = useState();
 
 	const showRevievs = () => {
+		const reviewBlock = document.getElementById('reviewBlock');
+		
+			reviewBlock.innerHTML = "иииии";
 		
 	}
 	return(
@@ -13,7 +16,7 @@ const Reviews = () => {
 				<textarea value={review} type="text" placeholder="Напишите здесь все, чем хотите поделиться" id="textarea" className="review__textarea"></textarea>
 				<button onClick={showRevievs} className="review__button">Поделиться</button>
 			</div>
-			<div className="review__block">
+			<div class="review__block" id="reviewBlock">
 				<ul>
 					<li></li>
 				</ul>
