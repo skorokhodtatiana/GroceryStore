@@ -2,14 +2,18 @@ import { useState } from "react";
 
 const Reviews = () => {
 	const [review, setReview] = useState();
+	const arr = [];
+	// const [arr, setArr] = useState([]);
 
 	const createNewReview = (e) => {
 		setReview(e.target.value);
+		// setArr(e.target.value);
 	}
 
 	const showRevievs = () => {
 		const reviewBlock = document.getElementById('reviewBlock');
 		reviewBlock.innerHTML = review;
+		const newArr = arr.push(review);
 		
 	}
 	return(
