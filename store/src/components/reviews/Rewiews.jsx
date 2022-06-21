@@ -2,8 +2,8 @@ import { useState } from "react";
 
 const Reviews = () => {
 	const [review, setReview] = useState();
-	const arr = [];
-	// const [arr, setArr] = useState([]);
+	// const arr = [];
+	const [arr, setArr] = useState([]);
 
 	const createNewReview = (e) => {
 		setReview(e.target.value);
@@ -13,8 +13,9 @@ const Reviews = () => {
 	const showRevievs = () => {
 		const reviewBlock = document.getElementById('reviewBlock');
 		reviewBlock.innerHTML = review;
-		const newArr = arr.push(review);
-		
+		setArr( arr.push(review));
+		// const newArr = arr.push(review);
+		setReview('');
 	}
 	return(
 		<div className="review">
