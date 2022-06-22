@@ -12,8 +12,10 @@ const Reviews = () => {
 
 	const showRevievs = () => {
 		const reviewBlock = document.getElementById('reviewBlock');
-		reviewBlock.innerHTML = review;
-		setArr( arr.push(review));
+		
+		const val = review;
+		arr.push(val);
+		reviewBlock.innerHTML = arr;
 		// const newArr = arr.push(review);
 		setReview('');
 	}
