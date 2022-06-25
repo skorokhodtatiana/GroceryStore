@@ -12,6 +12,7 @@ import AboutMe from './components/aboutMe/AboutMe';
 import MainBlock from './components/main/Main';
 import {CardItem, ListItem} from './components/catalogue/Catalogue';
 import Reviews from './components/reviews/Rewiews';
+import Payment from './components/paymentDelivery/Payment';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
 					<Route exact path="/" element={<MainBlock/>}></Route>
 					<Route exact path="aboutMe" element={<AboutMe/>}></Route>
 					<Route exact path="catalogue" element={<ListItem/>}></Route>
-					<Route exact path="payment"></Route>
+					<Route exact path="payment" element={<Payment/>}></Route>
 					<Route exact path="reviews" element={<Reviews/>}></Route>
 					<Route path="*"
 						element={
