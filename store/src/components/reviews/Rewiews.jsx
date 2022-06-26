@@ -27,9 +27,6 @@ const Reviews = () => {
 				<button onClick={showRevievs} className="review__button">Поделиться</button>
 			</div>
 			<div class="review__block" id="reviewBlock">
-				<ul>
-					<li></li>
-				</ul>
 			</div>
 		</div>
 	)
