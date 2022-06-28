@@ -15,7 +15,7 @@ const Reviews = () => {
 		
 		const val = review;
 		arr.push(val);
-		reviewBlock.innerHTML = arr;
+		// reviewBlock.innerHTML = arr;
 		// const newArr = arr.push(review);
 		setReview('');
 	}
@@ -27,6 +27,11 @@ const Reviews = () => {
 				<button onClick={showRevievs} className="review__button">Поделиться</button>
 			</div>
 			<div class="review__block" id="reviewBlock">
+				<ul class="review__block-list">
+					{arr.forEach(item => (
+						<li>item</li>
+					))}
+				</ul>
 			</div>
 		</div>
 	)
