@@ -7,12 +7,11 @@ const Reviews = () => {
 
 	const createNewReview = (e) => {
 		setReview(e.target.value);
-		// setArr(e.target.value);
 	}
 
 	const showRevievs = () => {
 		const reviewBlock = document.getElementById('reviewBlock');
-		
+		setArr(review);
 		const val = review;
 		arr.push(val);
 		// reviewBlock.innerHTML = arr;
@@ -28,9 +27,9 @@ const Reviews = () => {
 			</div>
 			<div class="review__block" id="reviewBlock">
 				<ul class="review__block-list">
-					{arr.forEach(item => (
+					{arr.forEach((item) => {
 						<li>item</li>
-					))}
+})}
 				</ul>
 			</div>
 		</div>
