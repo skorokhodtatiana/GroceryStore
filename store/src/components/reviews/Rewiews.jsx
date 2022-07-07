@@ -10,7 +10,6 @@ const Reviews = () => {
 	}
 
 	const showRevievs = () => {
-		const reviewBlock = document.getElementById('reviewBlock');
 		const val = review;
 		arr.push(val);
 		setReview('');
@@ -22,7 +21,7 @@ const Reviews = () => {
 				<textarea value={review} type="text" onChange={(e) => createNewReview(e)} placeholder="Напишите здесь все, чем хотите поделиться" id="textarea" className="review__textarea"></textarea>
 				<button onClick={showRevievs} className="review__button">Поделиться</button>
 			</div>
-			<div class="review__block" id="reviewBlock">
+			<div class="review__block">
 				<ul class="review__block-list">
 					{arr.map((item) => (
 						<li>{item}</li>
