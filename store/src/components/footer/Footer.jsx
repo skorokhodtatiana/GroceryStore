@@ -7,15 +7,15 @@ import pumpkin from '../../assets/images/pumpkin-removebg.png';
 import iceCream from '../../assets/images/iceCream-removebg.png';
 import mushroom from '../../assets/images/mushroom-removebg.png';
 import radish from '../../assets/images/radish-removebg.png';
-
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
 		<div className='footer'>
 			<div className='footer__gallery'>
 				<div className='footer__picture-wrapper'>
-					<img className='footer__picture' src={apple} alt={"apple"}></img>
+				<Link to="/catalogue"><img className='footer__picture' src={apple} alt={"apple"}></img></Link>
+					
 				</div>
 				<div className='footer__picture-wrapper'>
 					<img className='footer__picture' src={pumpkin} alt={"pumpkin"}></img>

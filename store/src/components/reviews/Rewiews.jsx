@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const Reviews = () => {
 	const [review, setReview] = useState();
-	// const arr = [];
 	const [arr, setArr] = useState([]);
 
 	const createNewReview = (e) => {
