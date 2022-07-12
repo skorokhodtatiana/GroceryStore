@@ -14,20 +14,19 @@ const Footer = () => {
 		<div className='footer'>
 			<div className='footer__gallery'>
 				<div className='footer__picture-wrapper'>
-				<Link to="/catalogue"><img className='footer__picture' src={apple} alt={"apple"}></img></Link>
-					
+					<Link to="/catalogue"><img className='footer__picture' src={apple} alt={"apple"}></img></Link>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<img className='footer__picture' src={pumpkin} alt={"pumpkin"}></img>
+					<Link to="/catalogue"><img className='footer__picture' src={pumpkin} alt={"pumpkin"}></img></Link>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<img className='footer__picture' src={iceCream} alt={"iceCream"}></img>
+					<Link to="/catalogue"><img className='footer__picture' src={iceCream} alt={"iceCream"}></img></Link>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<img className='footer__picture' src={mushroom} alt={"mushroom"}></img>
+					<Link to="/catalogue"><img className='footer__picture' src={mushroom} alt={"mushroom"}></img></Link>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<img className={'footer__picture footer__picture-radish'} src={radish} alt={"radish"}></img>
+					<Link to="/catalogue"><img className={'footer__picture footer__picture-radish'} src={radish} alt={"radish"}></img></Link>
 				</div>
 			</div>
 			<div className='footer__content'>
