@@ -33,4 +33,11 @@ export const DataCards = [
 		description: "Рыбка. Выглядит очень натурально. Заказ от 1 шт.",
 		price: "12р."
 	},
+	{
+		id: 4,
+		title: "кукуруза",
+		image: corn,
+		description: "Кукуруза в натуальную величину. Заказ от 1 шт.",
+		price: "16р."
+	},
 ]
