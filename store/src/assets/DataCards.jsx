@@ -36,7 +36,6 @@ export const DataCards = [
 	{
 		id: 4,
 		title: "кукуруза",
-		image: corn,
 		description: "Кукуруза в натуальную величину. Заказ от 1 шт.",
 		price: "16р."
 	},
