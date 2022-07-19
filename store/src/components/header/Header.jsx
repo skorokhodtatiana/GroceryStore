@@ -35,6 +35,11 @@ const Header = () => {
 								Игры
 							</Link>
 						</li>
+						<li className="headerWrapper__list-item">
+							<Link to="new" className="link">
+								Новинки
+							</Link>
+						</li>
 					</ul>
 				</nav>
 			</div>
