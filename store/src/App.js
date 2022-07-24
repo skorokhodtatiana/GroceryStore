@@ -13,6 +13,7 @@ import MainBlock from './components/main/Main';
 import {CardItem, ListItem} from './components/catalogue/Catalogue';
 import Reviews from './components/reviews/Rewiews';
 import Payment from './components/paymentDelivery/Payment';
+import New from './components/news/New';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 					<Route exact path="catalogue" element={<ListItem/>}></Route>
 					<Route exact path="payment" element={<Payment/>}></Route>
 					<Route exact path="reviews" element={<Reviews/>}></Route>
+					<Route exact path="new" element={<New/>}></Route>
 					<Route path="*"
 						element={
 							<main style={{ padding: "1rem", textAlign: "center", fontSize: "3rem" }}>
