@@ -1,4 +1,8 @@
-.new-icecream {
-	width: 310px;
-	margin-right: 20px;
+.new-items {
+	padding-bottom: 155px;
+
+	&__icecream {
+		height: 415px;
+		margin-right: 20px;
+	}
 }
