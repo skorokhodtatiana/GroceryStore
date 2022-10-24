@@ -7,7 +7,7 @@ import './news.scss';
 const New = () => {
 	return(
 		<>
-			<h2>В последнее время на создание новинок меня толкает моя маленькая крестница, большая любительница мороженного...</h2>
+			<h2 className="new-items__header">В последнее время на создание новинок меня толкает моя маленькая крестница, большая любительница мороженного...</h2>
 			<div className="new-items">
 				<img className="new-items__icecream" src={iceCream}></img>
 				<img className="new-items__icecream" src={food}></img>

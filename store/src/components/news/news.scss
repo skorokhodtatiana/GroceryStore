@@ -1,6 +1,12 @@
 .new-items {
 	padding-bottom: 155px;
 
+	&__header {
+		font-family: 'Lobster', cursive;
+		font-weight: 400;
+		color: rgb(29, 33, 27);
+	}
+
 	&__icecream {
 		height: 415px;
 		margin-right: 20px;
