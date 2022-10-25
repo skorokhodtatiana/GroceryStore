@@ -9,8 +9,10 @@ const CardItem = (props) => {
 				<div className='card__wrapper-img'>
 					<img className='card__img' src={image} alt={"image"}></img>
 				</div>
-				<div className='card__description'>{description}</div>
-				<div className='card__price'>{price}</div>
+				<div className='card__description-block'>
+					<div className='card__description'>{description}</div>
+					<div className='card__price'>{price}</div>
+				</div>
 			</div>
 		</div>
 	)
