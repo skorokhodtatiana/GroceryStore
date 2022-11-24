@@ -3,6 +3,7 @@ import iceCream from './images/iceCream-removebg.png';
 import radish from './images/radish-removebg.png';
 import fisch from './images/fisch.jpg';
 import avocado from './images/avocado.png';
+import mushroom from './images/mushroom-removebg.png';
 
 
 export const DataCards = [
@@ -46,5 +47,12 @@ export const DataCards = [
 		image: avocado,
 		description: "Авокадо в натуальную величину. Косточка достается. Заказ от 1 шт.",
 		price: "16р."
+	},
+	{
+		id: 6,
+		title: "мухомор",
+		image: mushroom,
+		description: "Мухомор в красно-белых тонах. Заказ от 2 шт.",
+		price: "15р."
 	},
 ]
