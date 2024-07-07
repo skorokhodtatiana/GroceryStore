@@ -1,4 +1,4 @@
-import { DataCards } from '../../assets/DataCards';
+import { DataCards } from '/Users/tatsianaskarakhod/Documents/github/GroceryStore/store/src/assets/DataCards';
 
 const CardItem = (props) => {
 	const {title, image, description, price} = props;
@@ -7,7 +7,7 @@ const CardItem = (props) => {
 			<div className='card'>
 				{/* <h2 className='card__title'>{title}</h2> */}
 				<div className='card__wrapper-img'>
-					<img className='card__img' src={image} alt={"image"}></img>
+					<img className='card__img' src={image} alt={title}></img>
 				</div>
 				<div className='card__description-block'>
 					<div className='card__description'>{description}</div>
@@ -19,16 +19,17 @@ const CardItem = (props) => {
 }
 
 const ListItem = () => {
-	return(<div className='block-catalouge'>
-		{DataCards.map((card) => (<CardItem
-			key={card.id}
-			id={card.id}
-			title={card.title}
-			image={card.image}
-			description={card.description}
-			price={card.price}
-		>
-		</CardItem>))}
+	return(
+		<div className='block-catalouge'>
+			{DataCards.map(card => <CardItem
+				key={card.id}
+				id={card.id}
+				title={card.title}
+				image={card.image}
+				description={card.description}
+				price={card.price}
+			>
+			</CardItem>)}
 		</div>
 	)
 }
