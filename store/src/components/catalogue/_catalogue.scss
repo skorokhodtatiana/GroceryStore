@@ -2,9 +2,12 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	margin: 5px;
+	margin: 20px;
 	width: 230px;
 	height: 370px;
+	background-color: white;
+	border-radius: 5px;
+	// border: 1px solid gray;
 
 	&__title {
 		margin: 0;
@@ -17,10 +20,13 @@
 
 	&__img {
 		max-width: 100%;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
 	}
 
 	&__description-block {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 	}
 
