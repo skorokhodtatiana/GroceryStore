@@ -41,7 +41,7 @@ const CardItem = (props) => {
 const ListItem = () => {
 	return(
 		<div className='block-catalouge'>
-			{DataCards.map(card => <CardItem
+			{DataCards.map(card => <CardItemPreviev
 				key={card.id}
 				id={card.id}
 				title={card.title}
@@ -49,9 +49,9 @@ const ListItem = () => {
 				description={card.description}
 				price={card.price}
 			>
-			</CardItem>)}
+			</CardItemPreviev>)}
 		</div>
 	)
 }
 
-export {CardItem, ListItem};
+export {CardItemPreviev, ListItem};

@@ -9,6 +9,10 @@
 	border-radius: 5px;
 	// border: 1px solid gray;
 
+	&:hover {
+		box-shadow: 0 1px 15px 0 rgba(0, 0, 0, .05);
+	}
+
 	&__title {
 		margin: 0;
 		height: 60px;

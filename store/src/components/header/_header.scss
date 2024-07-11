@@ -4,8 +4,8 @@
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	font-family: 'Lobster', cursive;
-	background-color: rgb(227, 233, 226);;
+	font-family: 'Roboto';
+	border-bottom: 1px solid rgb(227, 233, 226);
 
 	&__title {
 		margin-left: 5%;
@@ -41,7 +41,9 @@
 	color: black;
 	font-size: 1.3rem;
 
-	&:hover{
+	&:hover,
+	&:active,
+	&:focus {
 		text-decoration: underline;
 		color: rgb(44, 190, 81);
 	}
