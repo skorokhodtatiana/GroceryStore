@@ -1,4 +1,5 @@
 import { DataCards } from '/Users/tatsianaskarakhod/Documents/github/GroceryStore/store/src/assets/DataCards';
+import Button from '../button/Button';
 
 const CardItemPreviev = (props) => {
 	const {title, image, description, price, discount} = props;
@@ -10,11 +11,17 @@ const CardItemPreviev = (props) => {
 					<img className='card__img' src={image} alt={title}></img>
 				</div>
 				<div className='card__description-block'>
-				<div className='card__price-block'>
-					<div className='card__price'>{price}</div>
-					<div className='card__discount'>{discount}</div>
+					<div className='card__price-block'>
+						<div className='card__price'>{price}</div>
+						<div className='card__discount'>{discount}</div>
+					</div>
 				</div>
-				</div>
+				<Button
+					disabled={ false }
+					type="submit"
+				>
+					Купить
+				</Button>
 			</div>
 		</div>
 	)
