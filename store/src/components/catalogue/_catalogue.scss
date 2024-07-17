@@ -22,10 +22,40 @@
 		text-align: center;
 	}
 
+	// &__wrapper-img {
+	// 	height: 230px;
+	// }
+
 	&__img {
 		max-width: 100%;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
+	}
+
+	// &__to-favorite {
+	// 	&:hover {
+	// 		&::after {
+	// 			content: '';
+	// 			display: block;
+	// 			transform: translate(-50%, -50%);
+	// 			transition: .2s;
+	// 			position: absolute;
+	// 			top: 53%;
+	// 			left: 50%;
+	// 			width: 20px;
+	// 			height: 20px;
+	// 			background-image: url(/image/responsive/svg/icon-favorite-default.svg);
+	// 			background-size: contain;
+	// 			background-position: center;
+	// 			background-repeat: no-repeat;
+	// 		}
+	// 	}
+	// }
+
+	&__to-favorite {
+		position: absolute;
+		right: 10px;
+		top: 10px;
 	}
 
 	&__description-block {
@@ -42,8 +72,13 @@
 
 	&__price {
 		width: 100%;
-		height: 6px;
 		text-align: center;
+	}
+
+	&__to-basket {
+		padding: 6px 20px;
+		font-family: "Roboto";
+		font-size: 18px;
 	}
 }
 

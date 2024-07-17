@@ -1,15 +1,21 @@
 import { DataCards } from '/Users/tatsianaskarakhod/Documents/github/GroceryStore/store/src/assets/DataCards';
 import Button from '../button/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faHeart } from '@fortawesome/fontawesome-free-solid'
+//import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from '@fortawesome/free-regular-svg-icons'
 
 const CardItemPreviev = (props) => {
-	const {title, image, description, price, discount} = props;
+	const { title, image, description, price, discount } = props;
 	return(
 		<div>
 			<div className='card'>
 				{/* <h2 className='card__title'>{title}</h2> */}
 				<div className='card__wrapper-img'>
+					<FontAwesomeIcon className='card__to-favorite js-to-favorite' icon={ faHeart } />
 					<img className='card__img' src={image} alt={title}></img>
 				</div>
+				{/* <button className='card__to-favorite'></button> */}
 				<div className='card__description-block'>
 					<div className='card__price-block'>
 						<div className='card__price'>{price}</div>
@@ -17,6 +23,7 @@ const CardItemPreviev = (props) => {
 					</div>
 				</div>
 				<Button
+					className={ 'card__to-basket' }
 					disabled={ false }
 					type="submit"
 				>

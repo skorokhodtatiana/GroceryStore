@@ -14,7 +14,7 @@ const Button = ({
 	disabled,
 	size,
 	children,
-    href,
+	href,
 	type = 'button',
 	...props
 }) => {
