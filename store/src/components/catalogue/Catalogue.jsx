@@ -3,16 +3,19 @@ import Button from '../button/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import { faHeart } from '@fortawesome/fontawesome-free-solid'
 //import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { faHeart } from '@fortawesome/free-regular-svg-icons'
+import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 const CardItemPreviev = (props) => {
-	const { title, image, description, price, discount } = props;
+	const sentToFavorite = (id) => {
+		console.log(id);
+	};
+
+	const { title, image, description, price, discount, id } = props;
 	return(
 		<div>
 			<div className='card'>
-				{/* <h2 className='card__title'>{title}</h2> */}
 				<div className='card__wrapper-img'>
-					<FontAwesomeIcon className='card__to-favorite js-to-favorite' icon={ faHeart } />
+					<FontAwesomeIcon className='card__to-favorite js-to-favorite' icon={ faHeart } onClick={() => sentToFavorite(id)} />
 					<img className='card__img' src={image} alt={title}></img>
 				</div>
 				{/* <button className='card__to-favorite'></button> */}
@@ -22,6 +25,7 @@ const CardItemPreviev = (props) => {
 						<div className='card__discount'>{discount}</div>
 					</div>
 				</div>
+				<h2 className='card__title'>{title}</h2>
 				<Button
 					className={ 'card__to-basket' }
 					disabled={ false }
