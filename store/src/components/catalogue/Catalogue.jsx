@@ -7,7 +7,10 @@ import { faHeart } from '@fortawesome/free-regular-svg-icons';
 
 const CardItemPreviev = (props) => {
 	const sentToFavorite = (id) => {
-		console.log(id);
+		console.log(`.js-to-favorite-${id}`);
+		const chooseItem = document.querySelector(`.js-to-favorite-${id}`);
+		console.log(chooseItem);
+		chooseItem.style.color = 'red';
 	};
 
 	const { title, image, description, price, discount, id } = props;
@@ -15,7 +18,7 @@ const CardItemPreviev = (props) => {
 		<div>
 			<div className='card'>
 				<div className='card__wrapper-img'>
-					<FontAwesomeIcon className='card__to-favorite js-to-favorite' icon={ faHeart } onClick={() => sentToFavorite(id)} />
+					<FontAwesomeIcon className={"card__to-favorite js-to-favorite-" + id} id={id} icon={ faHeart } onClick={() => sentToFavorite(id)} />
 					<img className='card__img' src={image} alt={title}></img>
 				</div>
 				{/* <button className='card__to-favorite'></button> */}
