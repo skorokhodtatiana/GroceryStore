@@ -1,4 +1,8 @@
-.headerWrapper{
+.headerWrapper {
+	position: relative;
+}
+
+.header {
 	display: flex;
 	flex-direction: row;
 	position: fixed;

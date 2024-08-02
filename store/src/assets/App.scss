@@ -6,6 +6,11 @@
 @import '../components//reviews/rewiews';
 
 .app {
-	min-height: 97vh;
 	position: relative;
+}
+
+.main-app-block {
+	margin: auto;
+	max-width: 1280px;
+	min-width: 320px;
 }
