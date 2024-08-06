@@ -12,21 +12,18 @@ import { Link } from "react-router-dom";
 const Footer = () => {
 	return (
 		<div className='footer'>
-			<div className='footer__gallery'>
+			<div className='footer__nav'>
 				<div className='footer__picture-wrapper'>
-					<Link to="/catalogue"><img className='footer__picture' src={apple} alt={"apple"}></img></Link>
+					<Link to="/catalogue">Каталог</Link>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<Link to="/catalogue"><img className='footer__picture' src={pumpkin} alt={"pumpkin"}></img></Link>
+					<Link to="/catalogue">О нас</Link>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<Link to="/catalogue"><img className='footer__picture' src={iceCream} alt={"iceCream"}></img></Link>
+					<Link to="/catalogue">Доставка</Link>
 				</div>
 				<div className='footer__picture-wrapper'>
-					<Link to="/catalogue"><img className='footer__picture' src={mushroom} alt={"mushroom"}></img></Link>
-				</div>
-				<div className='footer__picture-wrapper'>
-					<Link to="/catalogue"><img className={'footer__picture footer__picture-radish'} src={radish} alt={"radish"}></img></Link>
+					<Link to="/catalogue">Контакты</Link>
 				</div>
 			</div>
 			<div className='footer__content'>
