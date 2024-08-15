@@ -17,12 +17,22 @@
 
 	&__title {
 		margin-left: 5%;
+		font-size: 16px;
 		color: black;
+
+		@media (min-width: 769px) {
+			font-size: 24px;
+		}
 	}
 
 	&__nav {
-		width: 40%;
-		margin-right: 5%;
+		display: none;
+
+		@media (min-width: 768px) {
+			display: block;
+			width: 40%;
+			margin-right: 5%;
+		}
 	}
 
 	&__list {
